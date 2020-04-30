@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 40%;
+  background-color: #ddd;
+  box-shadow: 0 0 2px 1px gray;
+  margin-top: 20px 0;
+  padding: 10px;
+}
+
+.form__title {
+  flex-basis: 100%;
+}
